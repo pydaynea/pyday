@@ -1,6 +1,6 @@
 <template>
 <div class="section">
-  <img class="snake" src="/static/snake.svg">
+  <img class="snake" src="@/assets/snake.svg">
   <div class="container">
     <nav class="navbar is-dark">
       <div class="navbar-menu is-active">
