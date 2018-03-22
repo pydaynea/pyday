@@ -1,0 +1,42 @@
+// 1. Import the initial variables
+@import "node_modules/bulma/sass/utilities/initial-variables";
+@import "node_modules/bulma/sass/utilities/functions";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,900,900i');
+
+// 2. Set your own initial variables
+
+// Link colors
+$py-yellow: #F2D24C;
+$py-yellow-invert: findColorInvert($py-yellow);
+$py-blue: #1D2533;
+$py-blue-invert: findColorInvert($py-blue);
+
+$link: $py-blue !default
+$link-invert: $py-blue-invert !default
+$link-visited: $purple !default
+
+$link-hover: $py-yellow !default
+$link-hover-border: $grey-light !default
+
+$link-focus: $grey-darker !default
+$link-focus-border: $blue !default
+
+$link-active: $grey-darker !default
+$link-active-border: $grey-dark !default
+
+
+// 4. Setup your Custom Colors
+$linkedin: #0077b5;
+$linkedin-invert: findColorInvert($linkedin);
+$twitter: #55acee;
+$twitter-invert: findColorInvert($twitter);
+$github: #333;
+$github-invert: findColorInvert($github);
+
+// 5. Add new color variables to the color map.
+@import "node_modules/bulma/sass/utilities/derived-variables";
+$addColors: ( "twitter":($twitter, $twitter-invert), "linkedin": ($linkedin, $linkedin-invert), "github": ($github, $github-invert) );
+$colors: map-merge($colors, $addColors);
+
+// 6. Import the rest of Bulma
+@import "node_modules/bulma/bulma";
