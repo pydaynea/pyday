@@ -15,7 +15,7 @@
       </p>
     </div>
   </div>
-  <img class="lower-wave" src="@/assets/agenda-lower-wave.svg">
+  <img class="lower-wave" src="/static/agenda-lower-wave.svg">
 </div>
 </template>
 

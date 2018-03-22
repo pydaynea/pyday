@@ -27,7 +27,7 @@
         </div>
       </div>
     </div>
-    <img class="lower-wave" src="@/assets/intro-lower-wave.svg">
+    <img class="lower-wave" src="/static/intro-lower-wave.svg">
   </div>
 </template>
 

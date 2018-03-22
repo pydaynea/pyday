@@ -5,7 +5,7 @@
       <nav class="navbar is-dark">
         <div class="navbar-brand">
             <div class="navbar-item">
-              <img src="@/assets/logo.svg" alt="pyday logo">
+              <img src="/static/logo.svg" alt="pyday logo">
             </div>
             <div @click="navVisible=!navVisible" v-bind:class="{ 'is-active': navVisible }" class="navbar-burger">
               <span></span>

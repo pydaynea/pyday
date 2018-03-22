@@ -7,7 +7,7 @@
   <hero-body/>
   <!-- Hero footer: will stick at the bottom -->
   <hero-footer/>
-  <img class="lower-wave" src="@/assets/hero-lower-wave.svg">
+  <img class="lower-wave" src="/static/hero-lower-wave.svg">
 </section>
 </template>
 
