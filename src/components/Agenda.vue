@@ -11,7 +11,7 @@
         </div>
       </div>
       <p>
-        Estamos buscado orandores
+        Estamos buscado oradores
       </p>
     </div>
   </div>

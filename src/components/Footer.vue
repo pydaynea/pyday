@@ -10,7 +10,7 @@
           <a class="navbar-item">Lugar</a>
           <a class="navbar-item">Sponsors</a>
           <a class="navbar-item">Contacto</a>
-          <a class="navbar-item">Registrarse</a>
+          <a class="navbar-item register">Registrarse</a>
         </div>
       </div>
     </nav>

@@ -9,13 +9,14 @@ $py-blue-invert: findColorInvert($py-blue);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  .navbar.is-dark {
+  .navbar {
     background: transparent;
   }
   .navbar-item {
     color: #ffffff;
     font-weight: bold;
     font-size: 16px;
+    height: 40px;
   }
   .navbar-burger {
     width: 5rem;
@@ -26,6 +27,16 @@ $py-blue-invert: findColorInvert($py-blue);
     color: #ffffff;
   }
 
+  @media screen and (min-width: 1024px) {
+    .navbar-menu .navbar-item.register {
+      background: $py-yellow;
+      color: $py-blue;
+      padding: 0 2rem;
+      border-radius: 30px;
+  
+    }
+  }
+  
   @media screen and (max-width: 1023px) {
     .navbar-menu.is-active {
       background: rgba(0, 0, 0, 0.50);
