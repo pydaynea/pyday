@@ -5,7 +5,8 @@ import App from './App'
 import router from './router'
 
 // Bulma CSS
-import './assets/style.sass'
+import './assets/bulma-overrides.sass'
+import './assets/style.scss'
 // import 'bulma/bulma.sass'
 
 Vue.config.productionTip = false

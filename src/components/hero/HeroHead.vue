@@ -15,7 +15,7 @@
         </div>
         <div class="navbar-menu" v-bind:class="{ 'is-active': navVisible }">
           <div class="navbar-end">
-            <a class="navbar-item">¿Qué es una PyDay?</a>
+            <a class="navbar-item">¿Qué es un PyDay?</a>
             <a class="navbar-item">Agenda</a>
             <a class="navbar-item">Lugar</a>
             <a class="navbar-item">Sponsors</a>
@@ -40,5 +40,5 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss" scoped>
+<style scoped>
 </style>

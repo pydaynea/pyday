@@ -32,16 +32,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.hero {
-  position: relative;
-  background: #2e3440;
-}
-.hero-bg {
-  position: absolute;
-  left: 0;
-  right: 0;
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
 </style>

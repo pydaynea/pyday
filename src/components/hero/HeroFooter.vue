@@ -2,7 +2,7 @@
   <div class="hero-foot">
     <div class="container">
       <div class="columns is-centered">
-          <div class="column is-4 has-text-centered">
+          <div class="column is-narrow has-text-centered">
             <div class="level">
               <span class="date level-item">
                 <img src="@/assets/calendar.svg" alt="pyday calendar">
@@ -31,16 +31,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .date, .place {
-    color: #ffffff;
-    font-weight: bold;
-    padding: 0 10px;
-    font-size: 20px
-  }
-  .hero-foot {
-    padding-bottom: 50px
-  }
-  .hero-foot img {
-    height: 2rem;
-  }
 </style>

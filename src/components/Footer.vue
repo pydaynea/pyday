@@ -1,11 +1,11 @@
 <template>
-<div class="section">
+<div class="section footer">
   <img class="snake" src="@/assets/snake.svg">
   <div class="container">
     <nav class="navbar is-dark">
       <div class="navbar-menu is-active">
         <div class="navbar-end">
-          <a class="navbar-item">¿Qué es una PyDay?</a>
+          <a class="navbar-item">¿Qué es un PyDay?</a>
           <a class="navbar-item">Agenda</a>
           <a class="navbar-item">Lugar</a>
           <a class="navbar-item">Sponsors</a>
@@ -30,22 +30,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.snake {
-  width: 30%;
-  position: absolute;
-  top: -38%;
-  left: -5px;
-  min-width: 300px;
-  z-index: 1;
-}
-.section {
-  background: #1D2533;
-  padding-top: 50px;
-  position: relative;
-  min-height: 300px;
-}
-.navbar-menu {
-    background: none;
-    box-shadow: none;
-}
 </style>

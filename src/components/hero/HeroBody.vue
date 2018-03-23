@@ -23,22 +23,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .title-wrap {
-    max-width: 500px
-  }
-  .title1 {
-    text-align: left;
-    font-weight: bold;
-    font-size: 28px;
-    font-style: italic;
-    color: #FFFFFF;
-
-  }
-  .title2 {
-    text-align: right;
-    font-weight: bold;
-    font-size: 39px;
-    font-style: italic;
-    color: #F2D24C;
-  }
 </style>
