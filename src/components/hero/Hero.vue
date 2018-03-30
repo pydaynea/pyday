@@ -1,6 +1,6 @@
 <template>
 <section class="hero is-medium">
-  <img class="hero-bg" src="@/assets/hero.png"/>
+  <img class="hero-bg" src="@/assets/hero.jpg"/>
   <!-- Hero head: will stick at the top -->
   <hero-head/>
   <!-- Hero content: will be in the middle -->
