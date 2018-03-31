@@ -15,11 +15,11 @@
         </div>
         <div class="navbar-menu" v-bind:class="{ 'is-active': navVisible }">
           <div class="navbar-end">
-            <a class="navbar-item">¿Qué es un PyDay?</a>
-            <a class="navbar-item">Agenda</a>
-            <a class="navbar-item">Lugar</a>
-            <a class="navbar-item">Sponsors</a>
-            <a class="navbar-item">Contacto</a>
+            <a href="#introduction" class="navbar-item">¿Qué es un PyDay?</a>
+            <a href="#agenda" class="navbar-item">Oradores</a>
+            <a href="https://goo.gl/maps/UQpDNgJHWvB2" target="_blank" class="navbar-item">Lugar</a>
+            <a href="#sponsors" class="navbar-item">Sponsors</a>
+            <a href="mailto:pythonnea@gmail.com" class="navbar-item">Contacto</a>
             <a class="navbar-item register">Registrarse</a>
           </div>
         </div>
