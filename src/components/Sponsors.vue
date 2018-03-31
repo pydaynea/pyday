@@ -10,7 +10,7 @@
       </div>
     </div>
     <p>
-      Participar como sponsor en un PyDay permite dar difusión a la marca de la empresa en un ámbito de programadores. Al desarrollarse en el ámbito de una facultad de informática, esto le da visibilidad en un ámbito de futuros profesionales y estudiantes avanzados que buscan trabajo.
+      Participar como sponsor en un PyDay permite dar difusión a la marca de la empresa en un ámbito de programadores. Al desarrollarse en un Club de Emprendedores, esto le da visibilidad en un ámbito propicio para hacer networking, desarollar la creatividad y generar nuevas oportunidades, y por qué no, encontrarte con profesionales y estudiantes universitarios que buscan trabajo.
     </p>
     <p>
       El PyDay es un día de múltiples conferencias, entrenamientos, reuniones, charlas y cursos relacionados con el lenguaje y tecnologías.
