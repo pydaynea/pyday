@@ -10,7 +10,7 @@
           <a href="https://goo.gl/maps/UQpDNgJHWvB2" target="_blank" class="navbar-item">Lugar</a>
           <a href="#sponsors" class="navbar-item">Sponsors</a>
           <a href="mailto:pythonnea@gmail.com" class="navbar-item">Contacto</a>
-          <a class="navbar-item register">Registrarse</a>
+          <a href="https://www.eventbrite.com.ar/e/pydaynea-en-corrientes-tickets-44881188844" class="navbar-item register">Registrarse</a>
         </div>
       </div>
     </nav>
