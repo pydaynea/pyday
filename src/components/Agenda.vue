@@ -28,7 +28,7 @@
                       <a href="https://twitter.com/facundobatista/">
                         <icon name="brands/twitter" scale="1"></icon>
                       </a>
-                      <a href="https://github.com/facundobatista">
+                      <a href="http://www.taniquetil.com.ar">
                         <icon name="brands/chrome" scale="1"></icon>
                       </a>
                       <a href="https://github.com/facundobatista">
