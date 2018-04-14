@@ -245,3 +245,12 @@ $py-blue-invert: findColorInvert($py-blue);
     }
   }  
 }
+
+.content {
+  figure {
+    margin: 0 auto;
+    img {
+      border: solid 5px blue;
+    }
+  }
+}
