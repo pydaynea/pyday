@@ -15,10 +15,10 @@
       <div class="columns">
         <!-- solo replicar esta columna para otros oradores. Se recomiendan 2 por fila-->
         <div class="column">
-          <div class="box">
+          <div class="box speaker">
             <article class="media">
               <figure class="image is-600x600">
-                <img src="@/assets/facundo_batista.png" alt="Facundo Batista">
+                <img src="@/assets/oradores/facundo_batista.png" alt="Facundo Batista">
               </figure>
             </article>
             <div class="content">
@@ -58,6 +58,11 @@
           </div>
         </div>
       </div>
+      <div class="notification is-info">
+        Podés mandar tu charla hasta el
+        <strong>2 de mayo</strong>.
+      </div>
+
       <p>
         Te invitamos a postularte como orador para nuestro próximo evento.
         Para el evento buscamos que la comunidad comparta su conocimiento. Para eso, vamos a hacer una búsqueda pública de oradores.
@@ -67,6 +72,7 @@
       <p>
         <a target="_blank" href="https://goo.gl/forms/iL1hx0iJynLTbW7u2" class="button is-link">Participá como orador</a>
       </p>
+
     </div>
   </div>
   <img class="lower-wave" src="@/assets/agenda-lower-wave.svg">

@@ -5,11 +5,10 @@
     <nav class="navbar is-dark">
       <div class="navbar-menu is-active">
         <div class="navbar-end">
-          <a href="#introduction" class="navbar-item">¿Qué es un PyDay?</a>
-          <a href="#agenda" class="navbar-item">Oradores</a>
-          <a href="https://goo.gl/maps/UQpDNgJHWvB2" target="_blank" class="navbar-item">Lugar</a>
-          <a href="#sponsors" class="navbar-item">Sponsors</a>
-          <a href="mailto:pythonnea@gmail.com" class="navbar-item">Contacto</a>
+          <a target="_blank" class="navbar-item" href="https://drive.google.com/file/d/1VBI9Vxme4IN2WRujmcCbnsTdVri77sUz/view?usp=sharing">Hoteles cercanos</a>
+          <a href="https://www.facebook.com/PyDayNEA/" class="navbar-item">
+            Encontranos en &nbsp;<icon name="brands/facebook-square" scale="2"></icon>
+          </a>
           <a href="https://www.eventbrite.com.ar/e/pydaynea-en-corrientes-tickets-44881188844" class="navbar-item register">Registrarse</a>
         </div>
       </div>

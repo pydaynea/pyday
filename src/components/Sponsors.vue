@@ -9,6 +9,21 @@
         </span>
       </div>
     </div>
+
+    <div style="height: 50px;"></div>
+
+    <div class="columns">
+      <div class="column">
+        <figure class="image is-600x600">
+          <img src="@/assets/sponsors/enlace_logo.png" alt="Enlace">
+        </figure>
+      </div>
+      <div class="column"></div>
+      <div class="column"></div>
+    </div>
+
+    <hr>
+
     <p>
       Participar como sponsor en un PyDay permite dar difusión a la marca de la empresa en un ámbito de programadores. Al desarrollarse en un Club de Emprendedores, esto le da visibilidad en un ámbito propicio para hacer networking, desarollar la creatividad y generar nuevas oportunidades, y por qué no, encontrarte con profesionales y estudiantes universitarios que buscan trabajo.
     </p>

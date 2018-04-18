@@ -10,7 +10,7 @@
               </span>
               <span class="place level-item">
                 <img src="@/assets/pin.svg" alt="pyday calendar">
-                Corrientes · San Martín 1625
+                Club de emprendedores Corrientes · San Martín 1625
               </span>
             </div>
           </div>
