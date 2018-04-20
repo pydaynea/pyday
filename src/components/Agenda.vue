@@ -57,6 +57,42 @@
             </div>
           </div>
         </div>
+        <div class="column">
+          <div class="box speaker">
+            <article class="media">
+              <figure class="image is-600x600">
+                <img src="@/assets/oradores/marian_vignau.png" alt="Facundo Batista">
+              </figure>
+            </article>
+            <div class="content">
+              <strong>Marian Vignau</strong>
+              <span class="is-pulled-right">
+                <a href="https://twitter.com/mavignau/">
+                  <icon name="brands/twitter" scale="1"></icon>
+                </a>
+                <a href="https://github.com/marian-vignau">
+                  <icon name="brands/github" scale="1"></icon>
+                </a>
+                <a href="https://www.linkedin.com/in/maría-andrea-vignau-77ba1623">
+                  <icon name="brands/linkedin" scale="1"></icon>
+                </a>
+              </span>
+              <p>
+                Soy María Andrea Vignau, Ingeniera en Sistemas de Información,
+                trabajo como Perito Informático Oficial en el Gabinete Cientifico del Ministerio
+                Público Fiscal Poder Judicial de la Provincia del Chaco.
+              </p>
+              <p>
+                Últimamente estoy
+                colaborando con las comunidades de software libre, como socia de Asociación
+                Civil Python Argentina, y coorganizadora del Festival de Instalación de
+                Software Libre, que hacemos en el Centro Cultural Alternativo de Resistencia
+                el 28 de Abril, y del Python Day NEA en el Club de Emprendedores en
+                Corrientes el 19 de mayo. Así como de 2600 filial Resistencia.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="notification is-info">
         Podés mandar tu charla hasta el

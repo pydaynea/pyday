@@ -15,7 +15,9 @@
     <div class="columns">
       <div class="column">
         <figure class="image is-600x600">
-          <img src="@/assets/sponsors/enlace_logo.png" alt="Enlace">
+          <a href="http://enlacesrl.com.ar/">
+            <img src="@/assets/sponsors/enlace_logo.png" alt="Enlace">
+          </a>
         </figure>
       </div>
       <div class="column"></div>
