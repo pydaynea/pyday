@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 import Icon from 'vue-awesome/components/Icon'
 import 'vue-awesome/icons'
+import ReadMore from 'vue-read-more'
 // Bulma CSS
 import './assets/bulma-overrides.sass'
 import './assets/style.scss'
@@ -12,6 +13,7 @@ import './assets/style.scss'
 Vue.config.productionTip = false
 
 Vue.component('icon', Icon)
+Vue.use(ReadMore)
 
 /* eslint-disable no-new */
 new Vue({
