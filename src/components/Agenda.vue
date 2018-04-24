@@ -91,8 +91,67 @@
           </div>
         </div>
         <div class="column">
+          <div class="box speaker">
+            <article class="media">
+              <figure class="image is-600x600">
+                <img src="@/assets/oradores/felipe.png" alt="Felipe Barros">
+              </figure>
+            </article>
+            <div class="content">
+              <strong>Felipe Sodre Barros</strong>
+              <span class="is-pulled-right">
+                <a href="https://twitter.com/FelipeSMBarros">
+                  <icon name="brands/twitter" scale="1"></icon>
+                </a>
+                <a href="http://geoind.wordpress.com">
+                  <icon name="brands/chrome" scale="1"></icon>
+                </a>
+                <a href="https://github.com/FelipeSBarros">
+                  <icon name="brands/github" scale="1"></icon>
+                </a>
+                <a href="https://www.linkedin.com/in/felipesodre/">
+                  <icon name="brands/linkedin" scale="1"></icon>
+                </a>
+              </span>
+              <read-more more-str="Leer más" :text="felipe_bio" link="#" less-str="Leer menos" :max-chars="375"></read-more>
+            </div>
+          </div>
         </div>
       </div>
+
+      <div class="columns">
+        <!-- solo replicar esta columna para otros oradores. Se recomiendan 2 por fila-->
+        <div class="column">
+          <div class="box speaker">
+            <article class="media">
+              <figure class="image is-600x600">
+                <img src="@/assets/oradores/cristhian.png" alt="Cristhian Boujon">
+              </figure>
+            </article>
+            <div class="content">
+              <strong>Cristhian A. Boujon</strong>
+              <span class="is-pulled-right">
+                <a href="https://twitter.com/overflow012">
+                  <icon name="brands/twitter" scale="1"></icon>
+                </a>
+                <a href="https://medium.com/@cristhianboujon">
+                  <icon name="brands/chrome" scale="1"></icon>
+                </a>
+                <a href="https://github.com/Overflow012">
+                  <icon name="brands/github" scale="1"></icon>
+                </a>
+                <a href="https://ar.linkedin.com/in/cristhian-boujon">
+                  <icon name="brands/linkedin" scale="1"></icon>
+                </a>
+              </span>
+              <read-more more-str="Leer más" :text="cristhian_bio" link="#" less-str="Leer menos" :max-chars="375"></read-more>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+        </div>
+      </div>
+
       <div class="notification is-info">
         Podés mandar tu charla hasta el
         <strong>2 de mayo</strong>.
@@ -145,7 +204,21 @@ export default {
                   socia de Asociación Civil Python Argentina, y coorganizadora del Festival 
                   de Instalación de Software Libre, que hacemos en el Centro Cultural Alternativo 
                   de Resistencia el 28 de Abril, y del Python Day NEA en el Club de Emprendedores
-                  en Corrientes el 19 de mayo. Así como de 2600 filial Resistencia.`
+                  en Corrientes el 19 de mayo. Así como de 2600 filial Resistencia.`,
+      cristhian_bio: `Ingeniero en Sistemas de Información.
+                      Dentro de la ingeniería de software, ha trabajando en diferentes roles
+                      , principalmente como full stack developer, lider técnico y analista
+                      funcional. Actualmente, está trabajando en soluciones basadas en Machine
+                      Learning.`,
+      felipe_bio: `Geógrafo, con especialización en Estadística y Maestría en Ecología,
+                   trabaja con Sistemas de Información Geográfica (GIS) desde la graduación
+                   y descubrió en la programación una forma distinta de ver y interactuar
+                   con el mundo. Hoy trabaja como Facilitador Pedagógico Digital para el
+                   proyecto “Escuelas del Futuro”, del Ministerio de Educación,
+                   trabajando lado a lado con docentes y alumnos de secundaria implementando
+                   distintas abordajes didácticas basadas en las nuevas tecnologías y la programación.
+                   Se maneja bien con lenguajes R y Python y, si hace necesario, se zafa con
+                   javacript.`
     }
   }
 }
