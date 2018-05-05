@@ -94,26 +94,26 @@
           <div class="box speaker">
             <article class="media">
               <figure class="image is-600x600">
-                <img src="@/assets/oradores/felipe.png" alt="Felipe Barros">
+                <img src="@/assets/oradores/garyservin.png" alt="Gary Servín">
               </figure>
             </article>
             <div class="content">
-              <strong>Felipe Sodre Barros</strong>
+              <strong>Gary Servín</strong>
               <span class="is-pulled-right">
-                <a href="https://twitter.com/FelipeSMBarros">
+                <a href="https://twitter.com/garyservin">
                   <icon name="brands/twitter" scale="1"></icon>
                 </a>
-                <a href="http://geoind.wordpress.com">
+                <a href="https://about.me/garyservin">
                   <icon name="brands/chrome" scale="1"></icon>
                 </a>
-                <a href="https://github.com/FelipeSBarros">
+                <a href="https://github.com/garyservin">
                   <icon name="brands/github" scale="1"></icon>
                 </a>
-                <a href="https://www.linkedin.com/in/felipesodre/">
+                <a href="https://www.linkedin.com/in/garyservin">
                   <icon name="brands/linkedin" scale="1"></icon>
                 </a>
               </span>
-              <read-more more-str="Leer más" :text="felipe_bio" link="#" less-str="Leer menos" :max-chars="375"></read-more>
+              <read-more more-str="Leer más" :text="gary_bio" link="#" less-str="Leer menos" :max-chars="375"></read-more>
             </div>
           </div>
         </div>
@@ -149,24 +149,33 @@
           </div>
         </div>
         <div class="column">
+          <div class="box speaker">
+            <article class="media">
+              <figure class="image is-600x600">
+                <img src="@/assets/oradores/felipe.png" alt="Felipe Barros">
+              </figure>
+            </article>
+            <div class="content">
+              <strong>Felipe Sodre Barros</strong>
+              <span class="is-pulled-right">
+                <a href="https://twitter.com/FelipeSMBarros">
+                  <icon name="brands/twitter" scale="1"></icon>
+                </a>
+                <a href="http://geoind.wordpress.com">
+                  <icon name="brands/chrome" scale="1"></icon>
+                </a>
+                <a href="https://github.com/FelipeSBarros">
+                  <icon name="brands/github" scale="1"></icon>
+                </a>
+                <a href="https://www.linkedin.com/in/felipesodre/">
+                  <icon name="brands/linkedin" scale="1"></icon>
+                </a>
+              </span>
+              <read-more more-str="Leer más" :text="felipe_bio" link="#" less-str="Leer menos" :max-chars="375"></read-more>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="notification is-info">
-        Podés mandar tu charla hasta el
-        <strong>2 de mayo</strong>.
-      </div>
-
-      <p>
-        Te invitamos a postularte como orador para nuestro próximo evento.
-        Para el evento buscamos que la comunidad comparta su conocimiento. Para eso, vamos a hacer una búsqueda pública de oradores.
-        Vamos a elegir a 6 de los postulantes. Para participar de este proceso sólo tenés que completar este formulario.
-      </p>
-
-      <p>
-        <a target="_blank" href="https://goo.gl/forms/iL1hx0iJynLTbW7u2" class="button is-link">Participá como orador</a>
-      </p>
-
     </div>
   </div>
   <img class="lower-wave" src="@/assets/agenda-lower-wave.svg">
@@ -218,7 +227,12 @@ export default {
                    trabajando lado a lado con docentes y alumnos de secundaria implementando
                    distintas abordajes didácticas basadas en las nuevas tecnologías y la programación.
                    Se maneja bien con lenguajes R y Python y, si hace necesario, se zafa con
-                   javacript.`
+                   javacript.`,
+      gary_bio: `Ingeniero en Electrónica especializado en robótica. Trabaja en Ekumne en el desarrollo
+                 de soluciones de software para robots autónomos. Apasionado de la robótica educativa,
+                 área en la cual trabaja desde hace 5 años. Gary es el co-creador y co-fundador 
+                 de RoDI (Robot Didáctico Inalámbrico), y está a cargo del desarrollo de hardware
+                 del mismo.`
     }
   }
 }
