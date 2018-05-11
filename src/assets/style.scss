@@ -254,3 +254,281 @@ $py-blue-invert: findColorInvert($py-blue);
     }
   }
 }
+$py-yellow: #F2D24C;
+$py-yellow-invert: findColorInvert($py-yellow);
+$py-blue: #1D2533;
+$py-blue-invert: findColorInvert($py-blue);
+
+
+#app {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  .navbar {
+    background: transparent;
+  }
+  .navbar-item {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    height: 40px;
+  }
+  .navbar-burger {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .navbar-menu.is-active .navbar-item {
+    color: #ffffff;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .navbar-menu .navbar-item.register {
+      background: $py-yellow;
+      color: $py-blue;
+      padding: 0 2rem;
+      border-radius: 30px;
+  
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .navbar-menu.is-active {
+      background: rgba(0, 0, 0, 0.50);
+    }
+    a.navbar-item:hover,
+    a.navbar-item.is-active,
+    a.navbar-link:hover, 
+    a.navbar-link.is-active {
+      background: none;
+    }
+  }
+
+  .navbar-item img {
+    max-height: 3.75rem;
+    height: 3.75rem;
+  }
+
+  .lower-wave {
+    z-index: 1;
+    width: 100%;
+    width: 100%;
+    display: block;
+  }
+
+  .hero {
+    position: relative;
+    background: #2e3440;
+  }
+
+  .hero-bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .hero-body {
+    .title-wrap {
+      max-width: 500px
+    }
+    .title1 {
+      text-align: left;
+      font-weight: bold;
+      font-size: 28px;
+      font-style: italic;
+      color: #FFFFFF;
+  
+    }
+    .title2 {
+      text-align: right;
+      font-weight: bold;
+      font-size: 39px;
+      font-style: italic;
+      color: $py-yellow;
+    }
+  }
+
+  .date, .place {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0 10px;
+    font-size: 20px
+  }
+
+  .hero-foot {
+    padding-bottom: 50px
+  }
+  
+  .hero-foot img {
+    height: 2rem;
+  }
+
+  .agenda {
+    .coc-wrap {
+      padding: 50px 0 50px 0;
+      font-size: 1.2em;
+    }
+    .coc-link {
+      color: white;
+    }
+    &.yellow {
+      background: $py-yellow;
+      padding-top: 50px;
+    }
+    .container {
+      padding-bottom: 100px;
+    }
+    
+    .wrap {
+      width: 200px;
+    }
+    .title {
+      color: $py-blue;
+      position: relative;
+      text-align: center;
+      margin-bottom: 10px;
+      div {
+        background: #ffffff;
+        width: 100%;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: -1px;
+        height: 18px;
+        margin-top: 12px;
+        border-radius: 17px;
+      }
+      span {
+        position: relative;
+      }
+    }
+    p {
+      font-weight: 300;
+      font-style: italic;
+      padding: 10px 0;
+      max-width: 870px;
+    }
+
+    // credentials and break divider
+    @import 'break';
+    @import 'tracks';
+    @import 'talk';
+  }
+
+  .footer {
+    .snake {
+      width: 30%;
+      position: absolute;
+      top: -28%;
+      left: -5px;
+      min-width: 300px;
+      z-index: 1;
+    }
+    .navbar-menu {
+        background: none;
+        box-shadow: none;
+    }
+    &.section {
+      background: $py-blue;
+      padding-top: 50px;
+      position: relative;
+      min-height: 300px;
+    }
+  }
+
+  .introduction {
+    .register {
+      background: $py-yellow;
+      color: $py-blue;
+      padding: 0 2rem;
+      border-radius: 30px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .container {
+      padding: 50px 0 80px 0;
+    }
+    .wrap {
+      text-align: center;
+    }
+    .title {
+      display: inline-block;
+      width: 400px;
+      color: $py-blue;
+      position: relative;
+      text-align: center;
+      @media screen and (max-width: 460px) {
+        width: 100%;
+        div {
+          display: none !important;
+        }
+      }
+      div {
+        background: $py-yellow;
+        width: 100%;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: -1px;
+        height: 18px;
+        margin-top: 12px;
+        border-radius: 17px;
+      }
+      span {
+        position: relative;
+      }
+    }
+    p {
+      font-weight: 300;
+      font-style: italic;
+      padding: 10px 0;
+    }
+  }
+  .sponsors {
+    .container {
+      padding-bottom: 200px;
+    }
+    .wrap {
+      width: 256px;
+    }
+    .button.is-link {
+      border-radius: 100px;
+      font-weight: bold;
+      padding: 0 2em;
+    }
+    .title {
+      color: $py-blue;
+      position: relative;
+      text-align: center;
+      padding-bottom: 30px; 
+      div {
+        background: $py-yellow;
+        width: 100%;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: -1px;
+        height: 18px;
+        margin-top: 12px;
+        border-radius: 17px;
+      }
+      span {
+        position: relative;
+      }
+    }
+    p {
+      font-weight: 300;
+      font-style: italic;
+      padding: 10px 0;
+      max-width: 870px;
+    }
+    .logo {
+      margin: 2em 0;
+      display: block;
+    }
+  }  
+}
