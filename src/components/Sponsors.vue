@@ -15,12 +15,18 @@
     <div class="columns">
       <div class="column">
         <figure class="image is-600x600">
-          <a href="http://enlacesrl.com.ar/">
+          <a href="http://enlacesrl.com.ar/" target="_blank">
             <img src="@/assets/sponsors/enlace_logo.png" alt="Enlace">
           </a>
         </figure>
       </div>
-      <div class="column"></div>
+      <div class="column">
+        <figure class="image is-600x600">
+          <a href="http://www.desarrollosnea.com.ar/" target="_blank">
+            <img class="desnea" src="@/assets/sponsors/desnea_logo.png" alt="DesarrollosNEA">
+          </a>
+        </figure>
+      </div>
       <div class="column"></div>
     </div>
 
